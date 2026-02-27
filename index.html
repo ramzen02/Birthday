@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For my home ❤️</title>
+
+<style>
+body{
+    margin:0;
+    background:linear-gradient(135deg,#0f0f0f,#1a1a1a);
+    font-family:Georgia, serif;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* ===== MUSIC BUTTON ===== */
+.music-container{
+    position:fixed;
+    top:20px;
+    width:100%;
+    text-align:center;
+    z-index:20;
+}
+
+.music-btn{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#c4002f;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.music-btn:hover{
+    background:#ff003c;
+    transform:scale(1.05);
+}
+
+/* ===== MAIN MESSAGE ===== */
+.main-message{
+    max-width:800px;
+    margin:120px auto 60px auto;
+    padding:40px;
+    background:rgba(255,255,255,0.05);
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    line-height:1.8;
+    font-size:18px;
+}
+
+/* ===== SPECIAL BUTTONS ===== */
+.special-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:80px;
+    padding:20px;
+}
+
+.special-btn{
+    padding:10px 18px;
+    border-radius:25px;
+    border:none;
+    background:linear-gradient(45deg,#ff0033,#800000);
+    color:white;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.special-btn:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px red;
+}
+
+/* ===== POPUP ===== */
+.popup{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    width:85%;
+    max-width:600px;
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 40px red;
+    transition:0.4s ease;
+    z-index:50;
+}
+
+.popup.active{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.popup p{
+    white-space:pre-line;
+    line-height:1.7;
+}
+
+.close-btn{
+    margin-top:20px;
+    padding:8px 16px;
+    background:crimson;
+    border:none;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* ===== FLOATING HEARTS ===== */
+.heart{
+    position:fixed;
+    bottom:-20px;
+    color:red;
+    animation:floatUp linear forwards;
+}
+
+@keyframes floatUp{
+    to{
+        transform:translateY(-110vh);
+        opacity:0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="music-container">
+    <button class="music-btn" id="musicBtn" onclick="toggleMusic()">Tap to Sway With Me 💞🎵</button>
+</div>
+
+<div class="main-message">
+<h2>Happy Birthday Meri Pyari Bhughdi ❤️</h2>
+
+<p>My Ram…, my curly-haired manboob with the softest heart and the most distracting smile 🤍✨</p>
+
+<p>Today feels sacred 🌙✨. Slow. Golden. Like the universe woke up gently and decided to whisper your name a little softer than usual because it’s your birthday 🎂🎉💫. And I’m sitting here with a heart so full that it almost aches 🥹💖, wondering how I can possibly fit everything I feel for you into words. How do I write about a man who has become my safest place 🏡, my loudest laugh 😂, my calm in chaos 🌊, my comfort in silence 🤍, my warmth on cold days 🫶🏻, my favorite distraction 😏, and my sweetest daydream all at once?</p>
+
+<p>If birthdays are meant to celebrate existence, then today is not just about the day you were born 🌟. It’s about the day the universe quietly set in motion the possibility of us 💞. The day my favorite person took his first breath 🌬️. Somewhere in that timeline, through all the randomness of life, through missed chances and perfect timings, we found each other 🤝✨. And that? That feels like destiny dressed in simplicity.</p>
+
+<p>Loving you is not always dramatic fireworks 🎆. It’s deeper than that. Softer than that. It’s instinct. It’s waking up and wondering if you slept well 🛌. It’s asking if you ate 🍽️. It’s seeing dosa on a menu and automatically smiling because I know you’ll choose it over idli with that stubborn little nod 😌🥞. It’s sipping filter kaapi and wishing you were across the table teasing me about how strong I like it ☕🤎. It’s scrolling through travel blogs and adding destinations to a mental list titled “With Him” 🗺️✈️. It’s me looking at bikes 🏍️, gadgets 📱, lamps 🕯️, rugs 🧶, home decor 🛋️, LinkedIn opportunities 💼, and subconsciously building a future that always has you in it 🏡🤍.</p>
+
+<p>You don’t just exist in my present. You exist in my plans 📅. In my quiet hopes 🌷. In my loud dreams 🌈.</p>
+
+<p>I imagine our mornings first 🌅. Sunlight slipping through the curtains and painting your face in gold ✨. I wake up before you just to watch you breathe for a second 🥹. Your hand searching for me even in sleep 🤍. Me pretending to move away just so you pull me back closer 😌. You murmuring something half-asleep, voice deep and warm, and I melt every single time 🫠🔥.</p>
+
+<p>We’ll argue about breakfast 😂. I’ll dramatically announce that I’m making dosa because “idli is overrated” 😌🥞, and you’ll roll your eyes but eat extra anyway 🤭. I’ll complain that you’re not helping, and you’ll come stand behind me in the kitchen 🍳, chin resting on my shoulder, hands sliding around my waist 🤍, stealing bites before they’re ready. Some nights we’ll experiment with recipes and burn everything 🔥🙈, then end up ordering food at 11 pm and laughing on the floor while waiting for delivery 🍕😂. Because when it’s us, even chaos tastes sweet ❤️.</p>
+
+<p>And oh, my south mundu boi 🤍🤭… I can see you on lazy Sundays. Crisp white mundu 🤍, hair slightly messy 🌀, trying to act dignified while I’m internally combusting because how can one man be this effortlessly attractive? 😮‍🔥 You’ll walk around like you own the house — and technically you will 🏡 — but the second I come near you, that calm exterior will crack just enough for me to see that spark in your eyes 🔥😏. Old-school outside 📜. A little sinful inside 😌. The kind of man who respects tradition but also pulls me close in the kitchen when no one’s watching 🤍🔥. The kind who will pray with me 🙏🏻 and then kiss me slow and deep like he’s been holding it in all day 💋.</p>
+
+<p>When I think of our future, I don’t imagine only grand milestones 🏆. I imagine simple routines 🌿. Grocery shopping together 🛒. You pretending not to want dessert and then eating half of mine 🍰😂. Me obsessing over the “perfect” lamp 🕯️ while you patiently help fix it 🛠️. You complaining about my online shopping tabs 🛍️ open for rugs and shoes 👠, and yet secretly enjoying how excited I get over small aesthetic things 🤍.</p>
+
+<p>I see a little home 🏡✨. Warm lights 💡. A balcony with plants I overwater 🌱. Wind chimes singing in the evenings 🎐. A wooden dining table that becomes our office desk at night 💻. Two laptops open. Deadlines looming. You stressed about a presentation 📊. Me editing slides at midnight 🌙. Both of us dramatically texting “I’m quitting tomorrow” 😤 and then sending heart emojis five minutes later ❤️😂. Sharing workload 🤝. Sharing ambition 💼. Sharing dreams 🌟.</p>
+
+<p>And then… the dream grows bigger 🥹. Two little munchkins 👶👶. Two tiny humans with your eyes 👀 and your stubbornness 😌. One with your curls 🌀 that I’ll struggle to comb while you proudly say, “They got it from me.” The other copying your expressions and walking around like a tiny CEO 😎. I imagine you carrying one on your shoulder while the other holds your mundu and refuses to let go 🤍. I imagine hearing them call you “Appa” for the first time and watching you pretend you’re not emotional while your eyes give you away 🥹💖.</p>
+
+<p>There will be a dog too 🐶🐾. A hyper little furball who thinks he owns the house 😂. You’ll pretend you didn’t want him, but you’ll be the one sneaking him treats and talking to him like he understands everything 🤭. Our home will be loud 🔊. Full of toys on the floor 🧸. Milk spilled on the counter 🥛. Laughter echoing through hallways 😂. Bedtime stories 📖. Soft lullabies 🎶. And sometimes, after the kids are asleep, we’ll sit on the couch in comfortable silence 🤍, your arm around me, our dog at our feet 🐾, and I’ll think — this is it. This is everything ✨.</p>
+
+<p>Junju… loving you is gentle 🌷… but it’s also electric ⚡🔥. It’s the way your hand fits perfectly at my waist 🤍. The way your voice drops when you say my name slowly 😏. The way your eyes change when you look at me like I’m not just your girl but your favorite temptation 😌🔥. You are my old-school romance 📜 wrapped in modern intensity 💫. The kind who would write letters 💌 but also press me close in the kitchen just to remind me I’m yours 🤍. The kind who protects my peace 🛡️ and steals my breath at the same time 🫠.</p>
+
+<p>And remember the Horcrux thought? 🖤✨ If someone once split his soul to survive, loving you feels like the opposite. It feels like all my scattered pieces gathered and became whole 🤍. But if I ever had to hide fragments of my soul, I’d hide them in our memories 📸. In the first key to our home 🗝️. In the hospital bracelet from when our babies are born 👶. In your favorite coffee mug ☕. In the collar of our dog 🐶. In the way your name feels when I whisper it at night 🌙. Each memory holding a piece of us. Each one making us unbreakable 💞.</p>
+
+<p>You are not just a chapter in my story 📖. You feel like the storyline itself ✨. The reason everything before you makes sense. The calm explanation for all my past confusion 🌊🤍.</p>
+
+<p>I imagine us years from now 🌅. A little older. A little wiser. Still teasing each other 😌. Still flirting like we’re newly in love 💋. Still arguing about silly things 😂. Sitting on our balcony at sunset 🌇, sipping evening chai ☕, talking about how we survived deadlines, tantrums, EMIs, sleepless nights… and still chose each other every single day 🤝❤️.</p>
+
+<p>My Appu, on your birthday I don’t just wish you success 🎯. I wish you peace 🌿. I wish you mornings without anxiety 🌅 and nights filled with restful sleep 🌙. I wish you confidence when doubt creeps in 💪. I wish you courage to chase every dream you quietly carry ✨. I wish you laughter that reaches your eyes 😂 and joy that feels steady and warm 🤍. And selfishly… I wish to be there for all of it 🫶🏻.</p>
+
+<p>Happy Birthday, my Ram 🎂🎉✨. My Junju 🤍. My south mundu king 👑. My curly chaos 🌀. My KitKat 🍫. My Appu… my Chico… my furball 🐾, my bhughdi 😌</p>
+
+<p>I love you in soft mornings 🌅 and loud laughter 😂.
+I love you in kitchen chaos 🍳 and corporate stress 💼.
+I love you in playful teasing 😏 and quiet comfort 🤍.
+I love you in simple routines 🌿 and ambitious dreams ✨.
+I love you in every tiny memory we’ve built and every one we’re yet to create 🗝️💞.</p>
+
+<p>And before I end this… let me say it simply, clearly, softly and loudly all at once 🤍✨ — I love you more than words can ever fully hold 🥹💖. I love you in ways that are calm and wild, gentle and intense, ordinary and magical. You are my home, my dream, my chosen person. Happy Birthday, my love 🎂🤍. May this year wrap you in success, peace, passion, laughter, and all the warmth you deserve. I am so, so grateful you were born 🌟💫.</p>
+</div>
+
+<div class="special-container" id="specialContainer"></div>
+
+<div class="popup" id="popup">
+    <p id="popupText"></p>
+    <button class="close-btn" onclick="closePopup()">Back</button>
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="myaudio.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+
+/* ===== SPECIAL MESSAGES (ALL 21) ===== */
+
+const messages = [
+
+`I never truly understood what laughter sounded like… until I heard yours. 🤍✨
+It's not just a sound — it's like warmth, like light, like home finding me. 🎶💫`,
+
+`Ek tasveer hai teri mere saath… 🤍📸
+Mazaal hai ke maine ek bhi baar khud ko dekha ho. ✨
+Har dafa nazar bas tum par hi theher jaati hai. 💞🌙`,
+
+`I would recognize you in total darkness — were you mute and I deaf. 🤍✨
+I would recognize you in another lifetime entirely, in different bodies, different times. 🌙🕊️
+And I would love you in all of this, until the very last star in the sky burnt out into oblivion. ⭐🔥`,
+
+`Tera ishq chakravyuh … 🖤
+Aur main Abhimanyu. ⚔️✨`,
+
+`The world thinks I’m asleep… 🌒
+but my soul is wide awake — loving you in another realm. 💗✨
+Somewhere beyond this sky, beyond this time,
+I am still choosing you. 💗🌙💫`,
+
+`Tere bina, oh mahiya… 💞
+din dariya 🌊, raat jazire lagde ne🏝️🌒.`,
+
+`When death takes my hand 🕯️, I will hold you with the other 🤍 and promise to find you in every life. 🌙
+In every world 🌍, in every body 🫀, under every sky ✨, I will look for your soul like it’s the only home I’ve ever known. 🏡💞
+Even if time forgets us ⏳, even if stars burn out one by one 🌠, my heart will remember the rhythm of yours. 🫶🌊
+And I will find you — again, and again, and again. ♾️🖤🕊️`,
+
+`My face is a hundred times brighter when I see yours. ☀️✨
+And my soul feels a hundred times lighter, happier, softer when your soul is near. 🌙🕊️`,
+
+`The day we started talking to ach other,
+I wonder if the stars looked down at us and smiled 🌠 and said,
+“They finally met.” 💗✨`,
+
+`Even what feeds on my remains ⚰️🌹, will be ruined by my love for you. 💞
+It will wander the earth, hungry forever, searching for a taste it can never find again. 🌒🖤`,
+
+`I need three things in my life —
+The sun for my days ☀️, the moon for my nights 🌙,
+and you… for all of it. 💞✨
+For every sunrise 🌅, every quiet midnight 🌌, every breath in between. 🕊️ Just you. Always you ~. 🖤`,
+
+`For as long as I’m alive 🕊️, you will always be loved. 💞
+Because I have never loved anyone — or anything — as deeply as I love you. 🌊🖤
+And I mean that with my entire heart ❤️,and my entire soul. 🌙✨
+You are beautiful 🌹, you are sweet 🍯, you are kind 🤍 — and I love you, with everything that I have, and everything that I am. 🌌💫`,
+
+`O-live-you. 🫒💚 I a-peach-iate you. 🍑✨
+You’re pear-fect for me. 🍐🤍 You’re one in a melon. 🍉💞
+I’m grape-ful for you. 🍇🌸 And you’re the berry best. 🍓🌟
+Basically… my heart made a fruit salad, and somehow it turned into you. 🥹🍍💘`,
+
+`Mujhe prem hua — yeh bhagya hai. 🌺 Kintu aapse hua — yeh saubhagya hai. 💞🌙
+Pyaar karna kismat ho sakta hai, lekin aap se karna… woh vardaan hai. 🌙🤍
+Jaise dua qubool ho gayi ho 🧿`,
+
+`Kaise bataun main tumhe, mere liye kaun ho tum… 🌺🤍
+Kaise bataun main tumhe… ✨ Tum dhadkanon ka geet ho 💓🎶, jeevan ka tum sangeet ho. 🌙🎼
+Tum zindagi ho, tum bandagi ho 🕊️💞, tum roshni ho, tum taazgi ho. 🌅🌿
+Har khushi ho tum 😊, pyaar ho tum ❤️, preet ho tum 💫, manmeet ho tum. 🤝🌸
+Aankhon mein tum 👀✨, yaadon mein tum 🧠🌷, neendon mein tum 🌙, khwabon mein tum. 💭💖
+Tum ho meri har baat mein 🗣️, tum ho mere din-raat mein. 🌞🌜
+Tum subah mein ho 🌅, tum shaam mein ho 🌇, tum soch mein ho 💭, tum kaam mein ho. 🖋️
+Mere liye paana bhi tum 💍, mere liye khona bhi tum. 🖤 Mere liye hasna bhi tum 😄, 
+Mere liye rona bhi tum. 🥹Aur jaagna, sona bhi tum. 🌙🕊️
+Jaun kahin, dekhun kahin — tum ho wahan, tum ho wahin. 🌍✨
+Kaise bataun main tumhe… tum bin toh main kuch bhi nahin. 🤍🌌
+Kese bataun Mai tumhe Mere liye kon ho tum... Tum bin toh mai kuch bhi nahin`,
+
+`Kabristan ka haal kuch aisa hai… ⚰️🌫️
+Jo apne liye jeeye, unki kabrein dhool kha rahi hain. 🌪️🪦
+Aur jo doosron ke liye jeeye, unki qabron se phoolon ki mehak aa rahi hai. 🌹🌿
+Main tumhare liye jeeya hoon —
+isliye meri qabar bhi tere khatir yeh sher suna rahi hai. 🌙✨`,
+
+`Tu jo mila, toh zindagi hai badli. ✨
+Main poori nayi ho gayi. 🌸🕊️`,
+
+`My darling ❤️
+You’ll never be unloved by me, you’re too well tangled in my soul ♾️⏳`,
+
+`Saara shehar thanda hai ❄️🌫️,
+bas teri baahon ko chhod kar. 🤍🔥`,
+
+`Tu agle janam mujhe dobara mil sake… ✨`,
+
+`Rovan luk-luk, darr di maari… 🌫️🥀 tere nahi khayal bhulde. 💭🤍
+Saanu bhul gayi khudayi channa saari 🌙🕊️, par tere nahi khayal bhulde. 🖤✨`,
+
+`The beauty you see in me
+is only a reflection of you. ✨`,
+
+`And when I’m six feet underground ⚰️, with bugs feasting on my brain 🪲🖤,
+they’ll see your face behind their eyes 👀✨, and feel your touch through pulsing veins 💞🔥.
+They’ll breathe the scent you left behind 🌹, hear your voice in whispered sighs 🌙🕊️,
+calling my name through a moonlit sky — a sound that lingers, never dies 🌌💫.
+They’ll wander through untold desires 🌫️, dancing where memories ignite 💥🔥,
+as they feast upon the sacred part of me, that still holds you so tight 🖤💞.
+In the corners where I kept you safe 🗝️🌙, they’ll find the wonders I once knew 🌌🌹.
+Even in death, my soul remains 🕊️✨, forever dreaming, only of you. 💞🔥`,
+
+`Kiss me in the dark 🌙💋
+and let the music play 🎶🔥`,
+
+`Love stories aren’t about love 💞… they’re about what it does to people 🌙💫.
+How it shakes them, shapes them 🌸🌊, and leaves them beautifully undone 🕊️🖤.`,
+
+`When death stands beside me, asking for my hand ⚰️, I will beg for your glance as my final wish 🫀💞.
+Heaven or hell? I believe in neither 🌑✨, but your image — engraved on my retina 👁️💫 —
+before I go blind forever, will be my heaven 🌌🤍.`,
+
+];
+
+/* ===== BUTTON NAMES ===== */
+
+const buttonNames = [
+"🌙 The Sound of You",
+"✨ Just You in the Frame",
+"🌌 In Every Lifetime",
+"⚔️ Trapped Willingly",
+"🌒 While the World Rests",
+"🕯️ Tere Bina",
+"🕯️♾️ I’ll Find You",
+"🌞🫶 Brighter Soul With You",
+"💫🌙 Finally",
+"🌒🖤 Love That Lingers",
+"🌞🌜 And Guess What Else",
+"❤️ With My Entire Heart",
+"🍓🍑 A Little Fruity Love",
+"🌷✨ Bhagya Se Saubhagya",
+"🎼 Meri Zindagi Ka Sangeet",
+"🌒🌹 Mitti Mein Mohabbat",
+"✨ Tu Mila",
+"🌌🤍 Tangled in My Soul",
+"❄️🔥 Bas Teri Baahon Mein",
+"👀 Next Janam",
+"🌙🌷 Yaad",
+"✨ Reflection",
+"⚰️🌌 The Last Supper",
+"🌒 When the World Fades",
+"✨ When in Love",
+"🌙👁️ Final Wish",
+];
+
+/* CREATE BUTTONS */
+
+const container = document.getElementById("specialContainer");
+
+messages.forEach((msg, index)=>{
+    const btn=document.createElement("button");
+    btn.className="special-btn";
+    btn.innerText=buttonNames[index];
+    btn.onclick=()=>openPopup(msg);
+    container.appendChild(btn);
+});
+
+function openPopup(text){
+    document.getElementById("popupText").innerText=text;
+    document.getElementById("popup").classList.add("active");
+}
+
+function closePopup(){
+    document.getElementById("popup").classList.remove("active");
+}
+
+/* ===== MUSIC FUNCTION ===== */
+
+const music=document.getElementById("bgMusic");
+const musicBtn=document.getElementById("musicBtn");
+
+function toggleMusic(){
+    if(music.paused){
+        music.play();
+        musicBtn.innerText="Pause the Spell 🔮⏸";
+    }else{
+        music.pause();
+        musicBtn.innerText="Tap to Sway With Me 💞🎵";
+    }
+}
+
+/* ===== FLOATING HEARTS ===== */
+
+function createHeart(){
+    const heart=document.createElement("div");
+    heart.className="heart";
+    heart.innerText="❤️";
+
+    const size=Math.random()*20+10;
+    heart.style.fontSize=size+"px";
+    heart.style.left=Math.random()*window.innerWidth+"px";
+    heart.style.animationDuration=(4+Math.random()*4)+"s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(()=>{heart.remove();},8000);
+}
+
+setInterval(createHeart,500);
+
+</script>
+
+</body>
+</html>
